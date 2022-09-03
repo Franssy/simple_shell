@@ -36,6 +36,7 @@ int parse_command(char *command)
 		if (_strcmp(command, internal_command[i]) == 0)
 			return (INTERNAL_COMMAND);
 	}
+	
 	/* @check_path - checks if a command is found in the PATH */
 	path = check_path(command);
 	if (path != NULL)

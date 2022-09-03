@@ -50,7 +50,6 @@ void print(char *string, int stream)
  *remove_newline - removes new line from a string
  *@str: string to be used
  *
- *
  *Return: void
  */
 
