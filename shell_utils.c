@@ -2,7 +2,7 @@
 
 /**
  * Auth: Francis Nwoke
- * 		 Kehinde Bandipo
+ *       Kehinde Bandipo
  *
  * Description:
  * the extended functions for main.c
