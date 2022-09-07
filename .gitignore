@@ -1,4 +1,2 @@
-*.out
-test.c
-betty_report
-hsh
+# ignoring the simple_shell folder
+simple_shell
