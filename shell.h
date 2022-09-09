@@ -36,7 +36,6 @@
 
 extern char **environ;
 
-
 /**
  * struct liststr - singly linked list
  * @num: the number field
@@ -52,7 +51,7 @@ typedef struct liststr
 
 /**
  *struct passinfo - contains pseudo-arguements to pass into a function,
- *		allowing uniform prototype for function pointer struct
+ *allowing uniform prototype for function pointer struct
  *@arg: a string generated from getline containing arguements
  *@argv: an array of strings generated from arg
  *@path: a string path for the current command
@@ -72,6 +71,7 @@ typedef struct liststr
  *@readfd: the fd from which to read line input
  *@histcount: the history line number count
  */
+
 typedef struct passinfo
 {
 	char *arg;
@@ -104,12 +104,12 @@ typedef struct passinfo
  *@type: the builtin command flag
  *@func: the function
  */
+
 typedef struct builtin
 {
 	char *type;
 	int (*func)(info_t *);
 } builtin_table;
-
 
 /* toem_shloop.c */
 int hsh(info_t *, char **);
